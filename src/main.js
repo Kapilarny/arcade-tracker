@@ -30,7 +30,7 @@ client.once('ready', async () => {
     let metadata = ["Name", "Small Name", "Full Name", "Description", "Fullfillment Description", "Cost Hours", "Image URL", "Max Order Quantity", "Stock"];
 
     const interval = setInterval(async () => {
-        fetch(process.env.SHOP_REQ_URL, settings)
+        fetch("https://hackclub.com/_next/data/u5a0lJC0xX1_XKg0J1bHJ/arcade/shop.json", settings)
         .then(res => res.json())
         .then(async (json) => {
             json.pageProps.availableItems.forEach(async element => {

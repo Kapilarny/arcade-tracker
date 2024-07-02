@@ -14,7 +14,6 @@ This is a simple tracker of the Arcade Shop, which logs all metadata changes of 
 DISCORD_TOKEN = YOUR_DISCORD_BOT_TOKEN
 GUILD_ID = YOUR_DISCORD_CHANNEL_ID
 CHANNEL_ID = YOUR_DISCORD_CHANNEL_ID
-SHOP_REQ_URL = THE URL OF THE SHOP REQUEST (you can get it from the network tab of the browser)
 ```
 
 ## Usage
